@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+	align-items: center;
+	justify-content: center;
+	/* float: right; */
+	/* background-color: #FFD083; */
 }
 
 .App-logo {
@@ -35,4 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Sidebar {
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #40baa4;
+}
+
+.Body{
+	/* float: right; */
+	padding-block-start: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+ 
+}
+
+.Header {
+	background-color: #40baa4;
+}
+
+.Card {
+	color: #282c34;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
