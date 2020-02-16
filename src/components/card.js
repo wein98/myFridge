@@ -35,6 +35,27 @@ const CardExampleCard = (props) => (
 			)
 		})
 		}
+		<Card className="card">
+					<Card.Content>
+						<Image 
+							// floated='right'
+							size='mini'
+							icon='plus'
+						/>
+						{/* <Card.Header textAlign='left'>{name}</Card.Header> */}
+						{/* <Card.Meta textAlign='left'>Healthy level: {healthylevel}</Card.Meta> */}
+						{/* <Card.Description>Food count: {food}</Card.Description> */}
+					</Card.Content>
+					<Card.Content extra>
+        		<div className='ui two buttons'>
+          		<Button color='olive'>
+            	Add User
+          		</Button>
+    
+        		</div>
+      		</Card.Content>
+				</Card>
+
   </Card.Group>
 )
 
